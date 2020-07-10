@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css\master.css">
+    <link rel="icon" href="assets\notBook.jpg">
+  </head>
+  <body>
+
+    <h1>CSS-only Carousel</h1>
+
+    <p>This carousel is created with HTML and CSS only.</p>
+
+    <section class="carousel" aria-label="Gallery">
+      <ol class="carousel__viewport">
+
+        <!--Start of 1-->
+        <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+
+          <img src="assets\notBook.jpg" alt="Failure">
+
+          <div class="carousel__snapper">
+
+            <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+            <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+
+          </div>
+
+        </li>
+        <!-- End of 1-->
+
+        <!--Start of 2-->
+        <li id="carousel__slide2" tabindex="1" class="carousel__slide">
+
+          <img src="assets\book1.jpg" alt="Failure">
+
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+          <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+
+        </li>
+        <!--End of 2-->
+
+        <!--Start of 3-->
+        <li id="carousel__slide3" tabindex="2" class="carousel__slide">
+
+          <img src="assets\book2.jpg" alt="Failure">
+
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+          <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
+
+        </li>
+        <!--End of 3-->
+
+        <!--Start of 4-->
+        <li id="carousel__slide4" tabindex="3" class="carousel__slide">
+
+          <img src="assets\book3.jpg" alt="Failure">
+
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
+          <a href="#carousel__slide5" class="carousel__next">Go to first slide</a>
+
+        </li>
+        <!--End of 4-->
+
+        <!--Start of 5-->
+        <li id="carousel__slide5" tabindex="4" class="carousel__slide">
+
+          <img src="assets\book4.jpg" alt="Failure">
+
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide4" class="carousel__prev">Go to previous slide</a>
+          <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
+
+        </li>
+        <!--End of 5-->
+
+      </ol>
+
+      <aside class="carousel__navigation">
+
+        <ol class="carousel__navigation-list">
+
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide1" class="carousel__navigation-button"></a>
+          </li>
+
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide2" class="carousel__navigation-button"></a>
+          </li>
+
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide3" class="carousel__navigation-button"></a>
+          </li>
+
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide4" class="carousel__navigation-button"></a>
+          </li>
+
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide5" class="carousel__navigation-button"></a>
+          </li>
+        </ol>
+      </aside>
+    </section>
+
+    <br><br>
+
+    <div>
+      pie
+    </div>
+
+
+
+  </body>
+</html>

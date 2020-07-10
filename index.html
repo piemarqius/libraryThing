@@ -9,6 +9,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css\master.css">
+    <link rel="icon" href="assets\icon.ico">
+
   </head>
 
   <body>
@@ -16,7 +18,7 @@
     <section>
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <!-- Brand -->
-        <a class="navbar-brand" href="#">Logo</a>
+        <a class="navbar-brand" href="#"><img src="assets\icon5.ico"></a>
 
         <!-- Links to the NavBar -->
         <ul class="navbar-nav">
@@ -58,12 +60,125 @@
       </nav>
     </section>
 
-    <section>
-      <div>pie</div>
-      <div>
-        pie
+    <section id="mainPage">
+      <!-- Start of the main homepage-->
+      <br>
+      <div>pie says welcome Homepage of the LibraryThing</div>
+
+      <div class="account">
+
+        <div>If you have an account please Signin</div>
+        <div>UserID</div>
+        <textarea name="UserID" rows="1" cols="80"></textarea>
+        <div>Password</div>
+        <textarea name="UserPassword" rows="1" cols="80"></textarea>
+
       </div>
+
     </section>
+
+    <div>Popluar Books</div>
+    <!-- The first book slideshow-->
+    <br>
+    <section class="carousel" aria-label="Gallery">
+
+
+      <ol class="carousel__viewport">
+
+        <!--Start of 1-->
+        <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+
+          <img src="assets\notBook.jpg" alt="Failure">
+
+          <div class="carousel__snapper">
+
+            <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+            <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+
+          </div>
+
+        </li>
+        <!-- End of 1-->
+
+        <!--Start of 2-->
+        <li id="carousel__slide2" tabindex="1" class="carousel__slide">
+
+          <img src="assets\book1.jpg" alt="Failure">
+
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+          <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+
+        </li>
+        <!--End of 2-->
+
+        <!--Start of 3-->
+        <li id="carousel__slide3" tabindex="2" class="carousel__slide">
+
+          <img src="assets\book2.jpg" alt="Failure">
+
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+          <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
+
+        </li>
+        <!--End of 3-->
+
+        <!--Start of 4-->
+        <li id="carousel__slide4" tabindex="3" class="carousel__slide">
+
+          <img src="assets\book3.jpg" alt="Failure">
+
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
+          <a href="#carousel__slide5" class="carousel__next">Go to first slide</a>
+
+        </li>
+        <!--End of 4-->
+
+        <!--Start of 5-->
+        <li id="carousel__slide5" tabindex="4" class="carousel__slide">
+
+          <img src="assets\book4.jpg" alt="Failure">
+
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide4" class="carousel__prev">Go to previous slide</a>
+          <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
+
+        </li>
+        <!--End of 5-->
+
+      </ol>
+
+      <aside class="carousel__navigation">
+
+        <ol class="carousel__navigation-list">
+
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide1" class="carousel__navigation-button"></a>
+          </li>
+
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide2" class="carousel__navigation-button"></a>
+          </li>
+
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide3" class="carousel__navigation-button"></a>
+          </li>
+
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide4" class="carousel__navigation-button"></a>
+          </li>
+
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide5" class="carousel__navigation-button"></a>
+          </li>
+        </ol>
+      </aside>
+
+    </section>
+    <!--End of Slides-->
+  </div>
 
   </body>
 </html>
